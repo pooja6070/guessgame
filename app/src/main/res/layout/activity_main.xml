@@ -29,14 +29,13 @@
         android:layout_height="68dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="8dp"
-        android:text="Reset game"
+        android:text="Restart Game"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.919" />
+        app:layout_constraintVertical_bias="0.922" />
 
     <Button
         android:id="@+id/button2"
@@ -57,34 +56,34 @@
 
     <TextView
         android:id="@+id/totalscore"
-        android:layout_width="186dp"
-        android:layout_height="78dp"
+        android:layout_width="159dp"
+        android:layout_height="45dp"
         android:ems="10"
         android:text=""
         android:textColor="#0DEDAE"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.555" />
 
     <TextView
         android:id="@+id/totalscore2"
-        android:layout_width="276dp"
-        android:layout_height="48dp"
+        android:layout_width="225dp"
+        android:layout_height="38dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Total Click is: 0"
+        android:text="Total Atempt is: 0"
         android:textColor="#513C07"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.682"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229" />
+        app:layout_constraintVertical_bias="0.255" />
 
     <TextView
         android:id="@+id/rightans"
@@ -128,24 +127,25 @@
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.745"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.037" />
 
     <TextView
         android:id="@+id/welcomeview2"
         android:layout_width="250dp"
         android:layout_height="45dp"
         android:ems="10"
-        android:text="Guess Highest Number"
+        android:text="Guess Greater Number"
         android:textColor="#090005"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.689"
+        app:layout_constraintHorizontal_bias="0.701"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.126" />
 
     <TextView
         android:id="@+id/welcomeview3"
